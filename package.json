@@ -1,0 +1,30 @@
+{
+  "name": "really-need-test",
+  "version": "1.0.0",
+  "description": "Testing really-need - a replacement for Node require",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test-simple && npm run test-random && npm run test-nested",
+    "test-simple": "node test/simple.js",
+    "test-random": "node test/new-random-every-time.js",
+    "test-nested": "node test/nested-a.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bahmutov/really-need-test.git"
+  },
+  "keywords": [
+    "require",
+    "really-need",
+    "test"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/really-need-test/issues"
+  },
+  "homepage": "https://github.com/bahmutov/really-need-test",
+  "devDependencies": {
+    "really-need": "1.0.3"
+  }
+}

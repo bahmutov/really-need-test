@@ -5,7 +5,7 @@ var foo = require('./foo', {
   pre: function (source, filename) {
     console.log('in pre', filename);
     preCalled = true;
-    return source;
+    return 'console.log("loading ' + filename + '");\n' + source;
   },
   post: function (exported, filename) {
     console.log('in post', filename);

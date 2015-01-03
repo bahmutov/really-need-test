@@ -8,7 +8,7 @@
     "test-simple": "node test/simple.js",
     "test-random": "node test/new-random-every-time.js",
     "test-nested": "node test/nested-a.js",
-    "pre-post": "node test/test-post.js"
+    "pre-post": "node test/pre-post.js"
   },
   "repository": {
     "type": "git",

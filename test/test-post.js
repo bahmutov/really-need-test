@@ -1,6 +1,7 @@
 require = require('really-need');
 var preCalled;
 var foo = require('./foo', {
+  debug: true,
   pre: function (source, filename) {
     console.log('in pre', filename);
     preCalled = true;

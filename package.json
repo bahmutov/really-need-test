@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/bahmutov/really-need-test",
   "devDependencies": {
-    "really-need": "1.2.0"
+    "really-need": "1.2.1"
   }
 }

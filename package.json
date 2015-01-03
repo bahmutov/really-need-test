@@ -4,10 +4,11 @@
   "description": "Testing really-need - a replacement for Node require",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test-simple && npm run test-random && npm run test-nested",
+    "test": "npm run test-simple && npm run test-random && npm run test-nested && npm run pre-post",
     "test-simple": "node test/simple.js",
     "test-random": "node test/new-random-every-time.js",
-    "test-nested": "node test/nested-a.js"
+    "test-nested": "node test/nested-a.js",
+    "pre-post": "node test/test-post.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,6 @@
   },
   "homepage": "https://github.com/bahmutov/really-need-test",
   "devDependencies": {
-    "really-need": "1.0.3"
+    "really-need": "1.2.0"
   }
 }

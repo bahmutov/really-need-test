@@ -24,7 +24,7 @@ console.assert(require.length === 2);
 
 // get NEW instance from ./foo.js
 console.log('Get NEW instance from ./foo.js');
-var foo3 = require('./foo', { cached: false });
+var foo3 = require('./foo', { bust: true });
 console.assert(typeof foo3 === 'function', 'expected foo function');
 console.assert(foo3() === 'foo', 'foo should return "foo"');
 

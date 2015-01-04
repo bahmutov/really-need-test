@@ -27,6 +27,6 @@
   "homepage": "https://github.com/bahmutov/really-need-test",
   "devDependencies": {
     "istanbul": "0.3.5",
-    "really-need": "1.4.0"
+    "really-need": "1.5.0"
   }
 }
